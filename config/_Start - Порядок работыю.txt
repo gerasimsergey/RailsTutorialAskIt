@@ -1,0 +1,7 @@
+rails new AskIt - T 
+
+rails db:create RAILS_ENV = development
+
+rails g model Question title:string body:text
+
+rails db:migrate # или rails db:rollback STEP=1
